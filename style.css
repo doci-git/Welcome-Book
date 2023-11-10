@@ -3,11 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  display: flex;
-  align-items: center;
   height: 100vh;
-  margin: 0;
   background-color: #311740;
   font-family: "Poppins", sans-serif;
 }
