@@ -13,62 +13,77 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
+    <!-- nave menu -->
     <div class="nav">
-      <div class="nav-item active">
+      <div onclick="show('section1')" class="nav-item active">
         <i class="fa-solid fa-house"></i>
         <span class="nav-text">Home</span>
       </div>
-      <div class="nav-item">
+      <div onclick="show('section2')" class="nav-item">
         <i class="fa-solid fa-map"></i>
         <span class="nav-text">Around</span>
       </div>
-      <div class="nav-item">
+      <div onclick="show('section3')" class="nav-item">
         <i class="fa-solid fa-message"></i>
         <span class="nav-text">Message me</span>
       </div>
     </div>
 
+    <!-- h1 all pages -->
     <div class="tittle">
       <h1>MusArt</h1>
       <h2>Welcome Book!</h2>
     </div>
 
-    <div class="welcome">
-      <p>
-        Welcome to MusArt we care alot to make your stay easy and comfortable!
-        here you will find some information about the room and areas around
-      </p>
-    </div>
+    <!-- section 1 -->
+    <section id="section1" class="section1">
+      <div class="welcome">
+        <p>
+          Welcome to MusArt we care alot to make your stay easy and comfortable!
+          here you will find some information about the room and areas around
+        </p>
+      </div>
 
-    <div
-      data-aos="fade-right"
-      data-aos-easing="ease-in-sine"
-      data-aos-duration="500"
-      class="shutters"
-    >
-      <i class="fa-regular fa-calendar"></i>
-      <h3>How to use shutters</h3>
-    </div>
+      <div
+        data-aos="fade-right"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="500"
+        class="shutters"
+      >
+        <i class="fa-regular fa-calendar"></i>
+        <h3>How to use shutters</h3>
+      </div>
 
-    <div
-      data-aos="fade-right"
-      data-aos-easing="ease-in-sine"
-      data-aos-duration="800"
-      class="keys"
-    >
-      <i class="fa-solid fa-key"></i>
-      <h3>How to use keys</h3>
-    </div>
+      <div
+        data-aos="fade-right"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="800"
+        class="keys"
+      >
+        <i class="fa-solid fa-key"></i>
+        <h3>How to use keys</h3>
+      </div>
 
-    <div
-      data-aos="fade-right"
-      data-aos-easing="ease-in-sine"
-      data-aos-duration="1100"
-      class="direction"
-    >
-      <i class="fa-solid fa-route"></i>
-      <h3>Moving around</h3>
-    </div>
+      <div
+        data-aos="fade-right"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1100"
+        class="direction"
+      >
+        <i class="fa-solid fa-route"></i>
+        <h3>Moving around</h3>
+      </div>
+    </section>
+
+    <!-- section 2 -->
+    <section id="section2" class="section2" style="display: none">
+      <h2>section2</h2>
+    </section>
+    
+    <!-- section 3 -->
+    <section id="section3" class="section3" style="display: none">
+      <h2>section3</h2>
+    </section>
   </body>
   <script src="app.js"></script>
 </html>

@@ -15,7 +15,7 @@ body {
   );
   font-family: "Poppins", sans-serif;
 }
-
+/* */
 .nav {
   position: fixed;
   bottom: 0;
@@ -254,4 +254,7 @@ h3 {
     animation-timing-function: ease-out;
     opacity: 1;
   }
+}
+h2 {
+  color: #fff;
 }
