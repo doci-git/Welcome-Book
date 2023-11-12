@@ -94,11 +94,11 @@ body {
 /* h1 title for all pages */
 .tittle {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 .tittle h1 {
   color: darkorange;
-  font-size: 2.9rem;
+  font-size: 2.6rem;
   padding: 10px;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 1px;
@@ -106,6 +106,7 @@ body {
 /* h2 tittle for all pages*/
 .tittle h2 {
   color: rgb(212, 211, 210);
+  font-size: 1.2rem;
 }
 /*welcome paragraf home page */
 .welcome {
@@ -279,7 +280,7 @@ h3 {
 .test4 {
   text-align: center;
   width: 100%;
-  height: 100px;
+  
 }
 
 /*div button book*/
