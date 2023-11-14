@@ -281,24 +281,9 @@ h3 {
   text-align: center;
   width: 100%;
   height: auto;
-  
 }
 
 /*div button book*/
-.button-book {
-  text-align: center;
-}
-
-/*buttone whatsapp book*/
-.btn {
-  color: wheat;
-}
-
-.btn i {
-  font-size: 2.9rem;
-  color: #008000;
-  padding: 10px 10px 20px;
-}
 
 .test a {
   text-decoration: none;
@@ -316,7 +301,6 @@ h3 {
   display: block;
   color: #eee;
   text-align: left;
- 
 }
 .test1 a i {
   font-size: 1rem;
@@ -327,7 +311,6 @@ h3 {
   display: block;
   color: #eee;
   text-align: left;
-  
 }
 .test2 a i {
   font-size: 1rem;
@@ -338,7 +321,6 @@ h3 {
   display: block;
   color: #eee;
   text-align: left;
- 
 }
 .test3 a i {
   font-size: 1rem;
@@ -349,7 +331,6 @@ h3 {
   display: block;
   color: #eee;
   text-align: left;
-  
 }
 .test4 a i {
   font-size: 1rem;
@@ -402,4 +383,20 @@ h3 {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+/*section3*/
+
+/*buttone whatsapp book*/
+.section3 h3{
+  color: #eee;
+}
+
+.btn .fa-whatsapp {
+  font-size: 2.9rem;
+  color: #008000;
+  padding: 10px 10px 20px;
+}
+.button-book {
+  text-align: center;
 }
