@@ -140,7 +140,7 @@ p {
   color: #5a35b5;
 }
 
-h3 {
+.section1 h3 {
   padding: 10px;
 }
 
@@ -272,6 +272,10 @@ h3 {
 /* secrion 2 test*/
 .section2 h3 {
   color: #8f8d8d9c;
+  padding: 5px;
+}
+.section2 a{
+  padding: 5px;
 }
 .test,
 .test1,
@@ -281,6 +285,7 @@ h3 {
   text-align: center;
   width: 100%;
   height: auto;
+  margin: 10px;
 }
 
 /*div button book*/
