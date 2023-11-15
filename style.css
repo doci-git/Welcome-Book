@@ -94,19 +94,21 @@ body {
 /* h1 title for all pages */
 .tittle {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .tittle h1 {
   color: darkorange;
   font-size: 2.8rem;
   padding: 10px;
-  font-family: "Times New Roman", Times, serif;
+  font-family:serif;
   letter-spacing: 1px;
+  font-weight: 600;
 }
 /* h2 tittle for all pages*/
 .tittle h2 {
   color: rgb(212, 211, 210);
   font-size: 1.2rem;
+
 }
 /*welcome paragraf home page */
 .welcome {
@@ -117,7 +119,7 @@ body {
 p {
   font-size: 0.8rem; ;
   color: #eee;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 video {
   width: 100%;
