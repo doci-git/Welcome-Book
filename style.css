@@ -125,6 +125,9 @@ video {
   width: 100%;
   height: 500px;
 }
+button{
+  color: #eee;
+}
 
 /* div home page*/
 .shutters,
