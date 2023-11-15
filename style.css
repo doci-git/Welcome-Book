@@ -5,13 +5,13 @@
 }
 
 body {
-  height: 100vh;
+  height: 110vh;
   background-color: #0b0210;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
-    rgba(11, 2, 16, 1) 58%,
-    rgba(64, 22, 87, 1) 100%
+    rgba(11, 2, 16, 1) 50%,
+    rgba(64, 22, 87, 1) 120%
   );
   font-family: "Poppins", sans-serif;
 }
@@ -284,9 +284,11 @@ button{
 .section2 h3 {
   color: #8f8d8d9c;
   padding: 5px;
+  font-size: 1rem;
 }
 .section2 a {
   padding: 5px;
+  font-size: 0.8rem;
 }
 .test,
 .test1,
@@ -295,7 +297,6 @@ button{
 .test4 {
   text-align: center;
   width: 100%;
-  height: auto;
   margin: 10px;
 }
 
