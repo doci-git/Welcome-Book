@@ -98,7 +98,7 @@ body {
 }
 .tittle h1 {
   color: darkorange;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   padding: 10px;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 1px;
@@ -115,8 +115,13 @@ body {
 }
 
 p {
+  font-size: 0.8rem; ;
   color: #eee;
   font-family: "Times New Roman", Times, serif;
+}
+video {
+  width: 100%;
+  height: 500px;
 }
 
 /* div home page*/
