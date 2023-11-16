@@ -287,8 +287,8 @@ button{
   font-size: 1rem;
 }
 .section2 a {
-  padding: 5px;
-  font-size: 0.8rem;
+ 
+  font-size: 0.9rem;
 }
 .test,
 .test1,
@@ -299,7 +299,12 @@ button{
   width: 100%;
   margin: 10px;
 }
-
+.section2 a{
+  padding: 5px;
+}
+.section2 i{
+  padding: 5px;
+}
 /*div button book*/
 
 .test a {
@@ -307,11 +312,11 @@ button{
   display: block;
   color: #eee;
   text-align: left;
-  padding: 5px;
 }
+
 .test a i {
   font-size: 1rem;
-  padding: 10px;
+
 }
 .test1 a {
   text-decoration: none;
@@ -321,7 +326,7 @@ button{
 }
 .test1 a i {
   font-size: 1rem;
-  padding: 10px;
+  
 }
 .test2 a {
   text-decoration: none;
@@ -331,7 +336,7 @@ button{
 }
 .test2 a i {
   font-size: 1rem;
-  padding: 10px;
+
 }
 .test3 a {
   text-decoration: none;
@@ -341,7 +346,7 @@ button{
 }
 .test3 a i {
   font-size: 1rem;
-  padding: 10px;
+  
 }
 .test4 a {
   text-decoration: none;
@@ -351,7 +356,7 @@ button{
 }
 .test4 a i {
   font-size: 1rem;
-  padding: 10px;
+  
 }
 .test {
   -webkit-animation: slide-in-left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
