@@ -591,6 +591,7 @@ video {
 .shutters,
 .keys,
 .direction {
+ 
   padding: 20px 30px;
   height: 100px;
 }
@@ -600,19 +601,23 @@ section .btn-outline-warning{
 .shutters .fa-calendar {
   font-size: 2.2rem;
   padding: 10px;
+   margin: auto;
 }
 .keys .fa-key {
   font-size: 2.2rem;
   padding: 10px;
+   margin: auto;
 }
 .direction .fa-route {
   font-size: 2.2rem;
   padding: 10px;
+   margin: auto;
 }
 
 .section1 h3 {
   padding:10px;
   font-size: 1.2rem;
+  margin: auto;
 }
 
 }
