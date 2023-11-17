@@ -11,7 +11,8 @@ body {
     180deg,
     rgba(0, 0, 0, 1) 0%,
     rgba(11, 2, 16, 1) 50%,
-    rgba(64, 22, 87, 1) 120%
+    rgba(64, 22, 87, 1) 89%,
+    rgba(0, 0, 0, 0.817) 100%
   );
   font-family: "Poppins", sans-serif;
 }
