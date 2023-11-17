@@ -574,3 +574,45 @@ video {
 }
 }
 
+@media all and (min-width: 402px) {
+
+
+/* h2 tittle for all pages*/
+.tittle h2 {
+  font-size: 1.2rem;
+
+}
+/*welcome paragraf home page */
+.welcome p{
+  padding: 15px;
+  font-size: 0.9rem;
+}
+/* div home page*/
+.shutters,
+.keys,
+.direction {
+  padding: 20px 30px;
+  height: 100px;
+}
+section .btn-outline-warning{
+  margin-left: 60px;
+}
+.shutters .fa-calendar {
+  font-size: 2.2rem;
+  padding: 10px;
+}
+.keys .fa-key {
+  font-size: 2.2rem;
+  padding: 10px;
+}
+.direction .fa-route {
+  font-size: 2.2rem;
+  padding: 10px;
+}
+
+.section1 h3 {
+  padding:10px;
+  font-size: 1.2rem;
+}
+
+}
