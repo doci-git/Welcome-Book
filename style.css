@@ -126,9 +126,6 @@ video {
   width: 100%;
   height: 500px;
 }
-button{
-  color: #eee;
-}
 
 /* div home page*/
 .shutters,
@@ -427,11 +424,46 @@ button{
 }
 
 
-@media all and  (max-width: 320px) {
-  body {
-    background-color: olive;
-  }
-  h1{
-    color: red;
-  }
+@media all and (max-width: 324px) {
+ 
+.tittle h1 {
+  font-size: 2.2rem;
+  padding: 4px;
+  letter-spacing: 1px;
+ 
+}
+/* h2 tittle for all pages*/
+.tittle h2 {
+  font-size: 1rem;
+
+}
+/*welcome paragraf home page */
+.welcome p{
+  padding-bottom: 0;
+  font-size: 0.7rem;
+}
+/* div home page*/
+.shutters,
+.keys,
+.direction {
+  padding: 15px 30px;
+  height: 90px;
+}
+.shutters .fa-calendar {
+  font-size: 2rem;
+  padding: 5px;
+}
+.keys .fa-key {
+  font-size: 2rem;
+  padding: 5px;
+}
+.direction .fa-route {
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.section1 h3 {
+  padding: 5px;
+  font-size: 1.2rem;
+}
 }
