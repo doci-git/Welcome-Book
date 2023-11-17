@@ -595,7 +595,7 @@ video {
   height: 100px;
 }
 section .btn-outline-warning{
-  margin-left: 60px;
+  margin: auto;
 }
 .shutters .fa-calendar {
   font-size: 2.2rem;
