@@ -425,3 +425,13 @@ button{
 .button-book {
   text-align: center;
 }
+
+
+@media all and  (max-width: 320px) {
+  body {
+    background-color: olive;
+  }
+  h1{
+    color: red;
+  }
+}
