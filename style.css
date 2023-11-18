@@ -144,13 +144,17 @@ video {
   font-size: 2.4rem;
   color: #5a35b5;
 }
-.direction .fa-route {
+.direction .fa-person-walking-luggage {
   font-size: 2.4rem;
   color: #5a35b5;
 }
 
 .section1 h3 {
   padding: 10px;
+}
+.section1 a {
+ 
+  font-size: 1.4rem;
 }
 
 .fa-calendar {
@@ -161,7 +165,7 @@ video {
   -webkit-animation: bounce-top 1.8s ease-out infinite alternate-reverse both;
   animation: bounce-top 1.8s ease-out infinite alternate-reverse both;
 }
-.fa-route {
+.fa-person-walking-luggage {
   -webkit-animation: bounce-top 1.6s ease-out infinite alternate-reverse both;
   animation: bounce-top 1.6s ease-out infinite alternate-reverse both;
 }
@@ -457,7 +461,7 @@ video {
   font-size: 2rem;
   padding: 5px;
 }
-.direction .fa-route {
+.direction .fa-person-walking-luggage {
   font-size: 2rem;
   padding: 5px;
 }
@@ -532,7 +536,7 @@ video {
   font-size: 2.2rem;
   padding: 10px;
 }
-.direction .fa-route {
+.direction .fa-person-walking-luggage {
   font-size: 2.2rem;
   padding: 10px;
 }
@@ -608,7 +612,7 @@ section .btn-outline-warning{
   padding: 10px;
    margin: auto;
 }
-.direction .fa-route {
+.direction .fa-person-walking-luggage {
   font-size: 2.2rem;
   padding: 10px;
    margin: auto;
