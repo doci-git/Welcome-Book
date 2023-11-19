@@ -101,7 +101,7 @@ body {
   color: darkorange;
   font-size: 2.8rem;
   padding: 10px;
-  font-family:serif;
+  font-family: serif;
   letter-spacing: 1px;
   font-weight: 600;
 }
@@ -109,7 +109,6 @@ body {
 .tittle h2 {
   color: rgb(212, 211, 210);
   font-size: 1.2rem;
-
 }
 /*welcome paragraf home page */
 .welcome {
@@ -118,7 +117,7 @@ body {
 }
 
 p {
-  font-size: 0.8rem; ;
+  font-size: 0.8rem;
   color: #eee;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -153,7 +152,6 @@ video {
   padding: 10px;
 }
 .section1 a {
- 
   font-size: 1.4rem;
 }
 
@@ -289,7 +287,6 @@ video {
   font-size: 1rem;
 }
 .section2 a {
- 
   font-size: 0.9rem;
 }
 .test,
@@ -301,13 +298,12 @@ video {
   width: 100%;
   margin: 10px;
 }
-.section2 a{
+.section2 a {
   padding: 5px;
 }
-.section2 i{
+.section2 i {
   padding: 5px;
-  color:#c9329989;
-
+  color: #c9329989;
 }
 /*div button book*/
 
@@ -320,7 +316,6 @@ video {
 
 .test a i {
   font-size: 1rem;
-
 }
 .test1 a {
   text-decoration: none;
@@ -330,7 +325,6 @@ video {
 }
 .test1 a i {
   font-size: 1rem;
-  
 }
 .test2 a {
   text-decoration: none;
@@ -340,7 +334,6 @@ video {
 }
 .test2 a i {
   font-size: 1rem;
-
 }
 .test3 a {
   text-decoration: none;
@@ -350,7 +343,6 @@ video {
 }
 .test3 a i {
   font-size: 1rem;
-  
 }
 .test4 a {
   text-decoration: none;
@@ -360,7 +352,6 @@ video {
 }
 .test4 a i {
   font-size: 1rem;
-  
 }
 .test {
   -webkit-animation: slide-in-left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
@@ -427,201 +418,183 @@ video {
   text-align: center;
 }
 
-
 @media all and (max-width: 324px) {
- 
-.tittle h1 {
-  font-size: 2.2rem;
-  padding: 4px;
-  letter-spacing: 1px;
- 
-}
-/* h2 tittle for all pages*/
-.tittle h2 {
-  font-size: 1rem;
+  .tittle h1 {
+    font-size: 2.2rem;
+    padding: 4px;
+    letter-spacing: 1px;
+  }
+  /* h2 tittle for all pages*/
+  .tittle h2 {
+    font-size: 1rem;
+  }
+  /*welcome paragraf home page */
+  .welcome p {
+    padding-bottom: 0;
+    font-size: 0.7rem;
+  }
+  /* div home page*/
+  .shutters,
+  .keys,
+  .direction {
+    padding: 15px 30px;
+    height: 90px;
+  }
+  .shutters .fa-calendar {
+    font-size: 2rem;
+    padding: 5px;
+  }
+  .keys .fa-key {
+    font-size: 2rem;
+    padding: 5px;
+  }
+  .direction .fa-person-walking-luggage {
+    font-size: 2rem;
+    padding: 5px;
+  }
 
-}
-/*welcome paragraf home page */
-.welcome p{
-  padding-bottom: 0;
-  font-size: 0.7rem;
-}
-/* div home page*/
-.shutters,
-.keys,
-.direction {
-  padding: 15px 30px;
-  height: 90px;
-}
-.shutters .fa-calendar {
-  font-size: 2rem;
-  padding: 5px;
-}
-.keys .fa-key {
-  font-size: 2rem;
-  padding: 5px;
-}
-.direction .fa-person-walking-luggage {
-  font-size: 2rem;
-  padding: 5px;
-}
+  .section1 h3 {
+    padding: 5px;
+    font-size: 1.2rem;
+  }
 
-.section1 h3 {
-  padding: 5px;
-  font-size: 1.2rem;
-}
-
-/* secrion 2 test*/
-.section2 h3 {
-
-  padding: 2px;
-  font-size: 0.8rem;
-}
-.section2 a {
- 
-  font-size: 0.7rem;
-}
-.test,
-.test1,
-.test2,
-.test3,
-.test4 {
-  
-  width: 100%;
-  margin: 2px;
-  height: 80px;
-}
-.section2 a{
-  padding: 5px;
-}
-.section2 i{
-  padding: 5px;
-}
-video {
-  width: 100%;
-  height: 400px;
-}
+  /* secrion 2 test*/
+  .section2 h3 {
+    padding: 2px;
+    font-size: 0.8rem;
+  }
+  .section2 a {
+    font-size: 0.7rem;
+  }
+  .test,
+  .test1,
+  .test2,
+  .test3,
+  .test4 {
+    width: 100%;
+    margin: 2px;
+    height: 80px;
+  }
+  .section2 a {
+    padding: 5px;
+  }
+  .section2 i {
+    padding: 5px;
+  }
+  video {
+    width: 100%;
+    height: 400px;
+  }
 }
 
 @media all and (max-width: 377px) {
- 
-.tittle h1 {
-  font-size: 2.4rem;
-  padding: 6px;
-  letter-spacing: 1px;
- 
-}
-/* h2 tittle for all pages*/
-.tittle h2 {
-  font-size: 1.2rem;
+  .tittle h1 {
+    font-size: 2.4rem;
+    padding: 6px;
+    letter-spacing: 1px;
+  }
+  /* h2 tittle for all pages*/
+  .tittle h2 {
+    font-size: 1.2rem;
+  }
+  /*welcome paragraf home page */
+  .welcome p {
+    padding: 15px;
+    font-size: 0.8rem;
+  }
+  /* div home page*/
+  .shutters,
+  .keys,
+  .direction {
+    padding: 20px 35px;
+    height: 95px;
+  }
+  .shutters .fa-calendar {
+    font-size: 2.2rem;
+    padding: 10px;
+  }
+  .keys .fa-key {
+    font-size: 2.2rem;
+    padding: 10px;
+  }
+  .direction .fa-person-walking-luggage {
+    font-size: 2.2rem;
+    padding: 10px;
+  }
 
-}
-/*welcome paragraf home page */
-.welcome p{
-  padding: 15px;
-  font-size: 0.8rem;
-}
-/* div home page*/
-.shutters,
-.keys,
-.direction {
-  padding: 20px 35px;
-  height: 95px;
-}
-.shutters .fa-calendar {
-  font-size: 2.2rem;
-  padding: 10px;
-}
-.keys .fa-key {
-  font-size: 2.2rem;
-  padding: 10px;
-}
-.direction .fa-person-walking-luggage {
-  font-size: 2.2rem;
-  padding: 10px;
-}
+  .section1 h3 {
+    padding: 18px;
+    font-size: 1.2rem;
+  }
 
-.section1 h3 {
-  padding:18px;
-  font-size: 1.2rem;
-}
-
-/* secrion 2 test*/
-.section2 h3 {
-
-  padding: 5px;
-  font-size: 0.9rem;
-}
-.section2 a {
- 
-  font-size: 0.9rem;
-}
-.test,
-.test1,
-.test2,
-.test3,
-.test4 {
-  
-  width: 100%;
-  margin: 5px;
-  height: 100px;
-}
-.section2 a{
-  padding: 5px;
-}
-.section2 i{
-  padding: 8px;
-}
-video {
-  width: 100%;
-  height: 460px;
-}
+  /* secrion 2 test*/
+  .section2 h3 {
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+  .section2 a {
+    font-size: 0.9rem;
+  }
+  .test,
+  .test1,
+  .test2,
+  .test3,
+  .test4 {
+    width: 100%;
+    margin: 5px;
+    height: 100px;
+  }
+  .section2 a {
+    padding: 5px;
+  }
+  .section2 i {
+    padding: 8px;
+  }
+  video {
+    width: 100%;
+    height: 460px;
+  }
 }
 
 @media all and (min-width: 402px) {
+  /* h2 tittle for all pages*/
+  .tittle h2 {
+    font-size: 1.2rem;
+  }
+  /*welcome paragraf home page */
+  .welcome p {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+  /* div home page*/
+  .shutters,
+  .keys,
+  .direction {
+    padding: 20px 30px;
+    height: 100px;
+  }
+  section .btn-outline-warning {
+    margin: auto;
+  }
+  .shutters .fa-calendar {
+    font-size: 2.2rem;
+    padding: 10px;
+    margin: auto;
+  }
+  .keys .fa-key {
+    font-size: 2.2rem;
+    padding: 10px;
+    margin: auto;
+  }
+  .direction .fa-person-walking-luggage {
+    font-size: 2.2rem;
+    padding: 10px;
+    margin: auto;
+  }
 
-
-/* h2 tittle for all pages*/
-.tittle h2 {
-  font-size: 1.2rem;
-
-}
-/*welcome paragraf home page */
-.welcome p{
-  padding: 15px;
-  font-size: 0.9rem;
-}
-/* div home page*/
-.shutters,
-.keys,
-.direction {
- 
-  padding: 20px 30px;
-  height: 100px;
-}
-section .btn-outline-warning{
-  margin: auto;
-}
-.shutters .fa-calendar {
-  font-size: 2.2rem;
-  padding: 10px;
-   margin: auto;
-}
-.keys .fa-key {
-  font-size: 2.2rem;
-  padding: 10px;
-   margin: auto;
-}
-.direction .fa-person-walking-luggage {
-  font-size: 2.2rem;
-  padding: 10px;
-   margin: auto;
-}
-
-.section1 h3 {
-  padding:10px;
-  font-size: 1.2rem;
-  margin: auto;
-}
-
+  .section1 h3 {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: auto;
+  }
 }
