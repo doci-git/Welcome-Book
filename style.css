@@ -488,9 +488,13 @@ video {
 }
 
 @media all and (max-width: 377px) {
+  /* h1 title for all pages */
+.tittle {
+  text-align: center;
+  padding-bottom: 0px;
+}
   .tittle h1 {
     font-size: 2.4rem;
-    padding: 6px;
     letter-spacing: 1px;
   }
   /* h2 tittle for all pages*/
@@ -529,7 +533,7 @@ video {
 
   /* secrion 2 test*/
   .section2 h3 {
-    padding: 5px;
+    padding: 4px;
     font-size: 0.9rem;
   }
   .section2 a {
