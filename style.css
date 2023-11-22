@@ -156,16 +156,16 @@ video {
 }
 
 .fa-calendar {
-  -webkit-animation: bounce-top 2.2s ease-out infinite alternate-reverse both;
-  animation: bounce-top 2.2s ease-out infinite alternate-reverse both;
+  -webkit-animation: bounce-top 3.2s ease-out infinite alternate-reverse both;
+  animation: bounce-top 3.2s ease-out infinite alternate-reverse both;
 }
 .fa-key {
-  -webkit-animation: bounce-top 1.8s ease-out infinite alternate-reverse both;
-  animation: bounce-top 1.8s ease-out infinite alternate-reverse both;
+  -webkit-animation: bounce-top 3.8s ease-out infinite alternate-reverse both;
+  animation: bounce-top 3.8s ease-out infinite alternate-reverse both;
 }
 .fa-person-walking-luggage {
-  -webkit-animation: bounce-top 1.6s ease-out infinite alternate-reverse both;
-  animation: bounce-top 1.6s ease-out infinite alternate-reverse both;
+  -webkit-animation: bounce-top 3.6s ease-out infinite alternate-reverse both;
+  animation: bounce-top 3.6s ease-out infinite alternate-reverse both;
 }
 .fa-whatsapp {
   -webkit-animation: bounce-top 1.6s ease-out infinite alternate-reverse both;
