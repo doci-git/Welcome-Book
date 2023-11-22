@@ -559,7 +559,7 @@ video {
   }
 }
 
-@media all and (min-width: 402px) {
+@media all and (max-width: 402px) {
   /* h2 tittle for all pages*/
   .tittle h2 {
     font-size: 1.2rem;
