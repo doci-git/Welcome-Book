@@ -129,7 +129,7 @@ video {
 /* div home page*/
 .shutters,
 .keys,
-.direction {
+.direction,.tram {
   display: flex;
   text-align: center;
   padding: 25px 50px;
@@ -139,7 +139,7 @@ video {
   font-size: 2.4rem;
   color: #5a35b5;
 }
-.keys .fa-key {
+.keys .fa-key ,.fa-train-subway {
   font-size: 2.4rem;
   color: #5a35b5;
 }
@@ -154,12 +154,16 @@ video {
 .section1 a {
   font-size: 1.4rem;
 }
+img{
+  width: 100%;
+}
+
 
 .fa-calendar {
   -webkit-animation: bounce-top 3.2s ease-out infinite alternate-reverse both;
   animation: bounce-top 3.2s ease-out infinite alternate-reverse both;
 }
-.fa-key {
+.fa-key ,.fa-train-subway{
   -webkit-animation: bounce-top 3.8s ease-out infinite alternate-reverse both;
   animation: bounce-top 3.8s ease-out infinite alternate-reverse both;
 }
@@ -509,7 +513,7 @@ video {
   /* div home page*/
   .shutters,
   .keys,
-  .direction {
+  .direction,.tram {
     padding: 20px 35px;
     height: 95px;
   }
@@ -522,6 +526,10 @@ video {
     padding: 10px;
   }
   .direction .fa-person-walking-luggage {
+    font-size: 2.2rem;
+    padding: 10px;
+  }
+  .tram .fa-train-subway {
     font-size: 2.2rem;
     padding: 10px;
   }
@@ -573,7 +581,7 @@ video {
   /* div home page*/
   .shutters,
   .keys,
-  .direction {
+  .direction,.tram {
     padding: 20px 30px;
     height: 100px;
   }
@@ -586,6 +594,11 @@ video {
     margin: auto;
   }
   .keys .fa-key {
+    font-size: 2.2rem;
+    padding: 10px;
+    margin: auto;
+  }
+  .tram .fa-train-subway {
     font-size: 2.2rem;
     padding: 10px;
     margin: auto;
