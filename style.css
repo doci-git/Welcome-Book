@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 110vh;
+  height: 800px;;
   background-color: #0b0210;
   background: linear-gradient(
     180deg,
@@ -78,10 +78,10 @@ body {
   color: #5a35b5;
 }
 
-.nav-item.active > .fa-solid.fa-map {
+.nav-item.active > .fa-solid.fa-map-location-dot {
   color: #c9329a;
 }
-.fa-solid.fa-map ~ .nav-text {
+.fa-solid.fa-map-location-dot ~ .nav-text {
   color: #c9329a;
 }
 
@@ -161,15 +161,15 @@ img{
 }
 
 
-.fa-calendar {
+.fa-calendar ,.fa-house {
   -webkit-animation: bounce-top 3.2s ease-out infinite alternate-reverse both;
   animation: bounce-top 3.2s ease-out infinite alternate-reverse both;
 }
-.fa-key ,.fa-train-subway{
+.fa-key ,.fa-train-subway,.fa-message{
   -webkit-animation: bounce-top 3.8s ease-out infinite alternate-reverse both;
   animation: bounce-top 3.8s ease-out infinite alternate-reverse both;
 }
-.fa-person-walking-luggage {
+.fa-person-walking-luggage ,.fa-map-location-dot {
   -webkit-animation: bounce-top 3.6s ease-out infinite alternate-reverse both;
   animation: bounce-top 3.6s ease-out infinite alternate-reverse both;
 }
